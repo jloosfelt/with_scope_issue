@@ -8,7 +8,7 @@ name: with_scope_issue
 # domains: [www.example.com, example.com]
 
 # TODO: explain it
-locales: [en]
+locales: [fr]
 
 # TODO: explain it
 seo_title: with_scope_issue

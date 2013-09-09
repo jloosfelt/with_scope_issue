@@ -13,3 +13,7 @@ production:
   email: john@doe.net
   password: apassword
   # api_key: <your api key here>
+hosting:
+  host: withscope.locomotivehosting.com
+  api_key: f0c37bfbaae3ebbda1b9fb1d2b5d1b9bcb02e3db
+  ssl: true
