@@ -1,0 +1,65 @@
+- "Velouté de pommes":
+    _permalink: 'veloute-pommes'
+    photo: "/samples/courgette-recette.jpg" # Path to a file in the public/samples folder or to a remote and external file.
+    video_url: "DZRfZd4wByc"
+    number_people : 4,
+    difficulty: 2 # Use the value of a select option defined in the app/content_types/recipes.rb file.
+    preparation_duration: "30 mn"
+    cooking_duration: "Est velit suscipit perspiciatis eum."
+    tricks: "Incidunt ab ex quam quia. Voluptatem laudantium consequatur cumque tempora sequi. Praesentium ullam doloribus repudiandae. Voluptate reiciendis magnam vitae."
+    ingredients: "Ullam odio laboriosam eligendi esse possimus. Fuga officia earum ut in et quod quis. Placeat doloribus non maiores exercitationem beatae amet deleniti ut."
+    preparation : "<ol>
+                               <li>
+                                   Hacher l'oignon et l'ail ainsi que
+                                   l'escalope à part. Ciseler le persil et
+                                   le basilic.
+                               </li>
+                               <li>
+                                   Dans un saladier émietter la tranche
+                                   de pain de mie, verser un peu de lait
+                                   dessus de sorte que tout soit absorbé.
+                                   Ensuite ajouter un œuf et l'escalope
+                                   hachée, mélanger.
+                               </li>
+                               <li>
+                                   Ajouter le persil et les épices
+                                   (sel, poivre, cumin, piment doux).
+                               </li>
+                               <li>
+                                   Préparez vos tomates, coupez
+                                   le chapeau' et gardez le, creusez
+                                   l'intérieur, attention à ne pas percer
+                                   la tomate. Gardez la chair et hachez là.
+                               </li>
+                           </ol>"
+    dish_type: "plat" # Use the value of a select option defined in the app/content_types/recipes.rb file.
+    products: ["pommes"]
+    recipes : ["clafoutis-aux-nectarines"]
+
+- "Crumble de pommes":
+    _permalink: 'crumble-de-pommes'
+    photo: null # Path to a file in the public/samples folder or to a remote and external file.
+    video_url: "DZRfZd4wByc"
+    number_people : 5,
+    difficulty: null # Use the value of a select option defined in the app/content_types/recipes.rb file.
+    preparation_duration: "Omnis sunt ea voluptatum."
+    cooking_duration: "Consequatur molestiae quis magni sed officia dolorem maxime suscipit."
+    tricks: "Nemo ea praesentium voluptas id. Enim nisi ipsa labore qui adipisci odit accusamus. Aperiam ut quo voluptate iste sunt exercitationem. Illum quibusdam nostrum deleniti. Ea nobis dolores cum."
+    ingredients: "Harum assumenda tenetur nulla perspiciatis numquam consequatur modi. Nihil natus earum rerum sed. Eum temporibus esse quia. Cum unde ut illum qui natus aperiam est voluptatem."
+    dish_type: "entree" # Use the value of a select option defined in the app/content_types/recipes.rb file.
+    products: ["pommes"]
+    recipes : ["clafoutis-aux-nectarines"]
+
+
+- "Clafoutis aux nectarines":
+    photo: null # Path to a file in the public/samples folder or to a remote and external file.
+    video_url: "DZRfZd4wByc"
+    number_people : 6,
+    difficulty: null # Use the value of a select option defined in the app/content_types/recipes.rb file.
+    preparation_duration: "Delectus minus quia quasi est quo et."
+    cooking_duration: "Saepe aliquid quaerat et et voluptate vitae fugiat distinctio."
+    tricks: "Doloribus exercitationem aliquid quaerat inventore enim. Voluptas amet labore est et ut numquam velit. Est omnis laudantium natus est quia dicta hic porro. Dolores culpa rerum tempora sit."
+    ingredients: "Enim mollitia eveniet voluptatibus. Non et dolor nam aliquam. Neque facere et aut suscipit et nam aut atque. Cum enim saepe deleniti adipisci dolores eveniet. Est aut iste quis."
+    dish_type: "entree" # Use the value of a select option defined in the app/content_types/recipes.rb file.
+    products: ["nectarine"]
+    recipes : ["clafoutis-aux-nectarines"]

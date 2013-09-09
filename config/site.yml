@@ -1,0 +1,16 @@
+# TODO: explain it
+name: with_scope_issue
+
+# TODO: explain it
+# subdomain: sample
+
+# TODO: explain it
+# domains: [www.example.com, example.com]
+
+# TODO: explain it
+locales: [en]
+
+# TODO: explain it
+seo_title: with_scope_issue
+meta_keywords: "some meta keywords"
+meta_description: "some meta description"

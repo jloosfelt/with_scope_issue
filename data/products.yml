@@ -1,0 +1,15 @@
+- "Nectarine":
+    category: "fruits"
+    push_hp: false
+- "Pomme":
+    _permalink: "pommes"
+    push_hp: true
+- "Orange":
+    category: "fruits"
+    push_hp: false
+- "Artichaud":
+    category: "legumes"
+    push_hp: false
+- "Pomme de terre":
+    category: "legumes"
+    push_hp: true

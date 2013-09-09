@@ -1,0 +1,126 @@
+# Public name of this content type
+name: Recipes
+
+# TODO: explain
+slug: recipes
+
+# Explanation for the backoffice
+description: A description of the content type for the editors
+
+# Default field (e.g title)
+label_field_name: name
+
+# Order of entries
+order_by: manually # default: manually, also available: created_at or any field slug
+
+# Order direction
+# order_direction: asc # default: asc, also available: desc
+
+# Display entries grouped by <field> in the backoffice
+# group_by: <your field>
+
+# Activate public 'create' API (e.g for a contact form)
+# public_submission_enabled: false
+
+# Emails to be notified on new entries using the public API
+# public_submission_accounts: ['john@acme.net']
+
+# Describe each field. The name shoud always be an underscored string
+fields:
+- name:
+    label: Name
+    type: string
+    required: true
+    hint:
+    localized: false
+
+- photo:
+    label: Photo
+    type: file
+    required: false
+    hint:
+    localized: false
+
+- video_url:
+    label: Url de la vidéo
+    type: string
+    required: false
+    hint:
+    localized: false
+
+- number_people:
+    label: Nombre de personne
+    type: select
+    required: true
+    hint:
+    localized: false
+    select_options: ['1', '2', '3', '4','5','6','7','8','9','10']
+
+- difficulty:
+    label: Difficulté
+    type: select
+    required: true
+    hint: En nombre d'étoiles
+    localized: false
+    select_options: ['1', '2', '3', '4']
+
+- preparation_duration:
+    label: Durée de préparation
+    type: string
+    required: false
+    hint:
+    localized: false
+
+- cooking_duration:
+    label: Durée de cuisson
+    type: string
+    required: false
+    hint:
+    localized: false
+
+- tricks:
+    label: Astuces
+    type: text
+    required: false
+    localized: false
+    text_formatting: html
+
+- ingredients:
+    label: Ingrédients
+    type: text
+    required: false
+    hint: "Utilisez une liste à puces, n'oubliez pas de préciser pour combien de personnes"
+    localized: false
+    text_formatting: html
+
+- preparation:
+    label: Préparation
+    type: text
+    required: false
+    hint: "Utilisez une liste à puces numérotée"
+    localized: false
+    text_formatting: html
+
+- dish_type:
+    label: Type de plat
+    type: select
+    required: false
+    hint: "Type de plat"
+    localized: false
+    select_options: ['entree', 'plat', 'dessert']
+
+- recipes:
+    label: Recettes associés
+    type: many_to_many
+    class_name: recipes
+    hint: "Recettes associés"
+    inverse_of: recipe
+    ui_enabled: true
+
+- products:
+    label: Produits associés
+    type: many_to_many
+    class_name: products
+    hint: "Produits associés"
+    inverse_of: recipe
+    ui_enabled: true

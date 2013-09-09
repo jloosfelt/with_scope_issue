@@ -1,0 +1,22 @@
+---
+title: Home page
+published: true
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.name }}</title>
+    <meta name="keywords" value="{{ site.meta_keywords }}" />
+    <meta name="description" value="{{ site.meta_description }}" />
+  </head>
+  <body>
+    {% with_scope _permalink: 'fruits' %}
+      {% assign category = contents.categories.first %}
+    {% endwith_scope %}
+    {% with_scope push_hp: true %}
+      {% assign product = category.products.first %}
+    {% endwith_scope %}
+    {{product.name}}
+  </body>
+</html>
